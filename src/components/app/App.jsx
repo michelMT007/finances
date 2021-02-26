@@ -4,8 +4,7 @@ import Header from './share/template/Header'
 import Toolbar from './share/template/Toolbar'
 import SideNav from './share/template/SideNav'
 import Footer from './share/template/Footer'
-import Content from './share/template/Content'
-
+import Routes from './Routes'
 const  App =  props => {
     return (
         <Container>
@@ -13,7 +12,7 @@ const  App =  props => {
 
             <Toolbar><span>Toolbar</span></Toolbar>
             <SideNav><span>spanSideNav</span></SideNav>
-            <Content><span>Content</span></Content>
+            <Routes></Routes>
             <Footer><span>2021 MACsys - FInances app.</span></Footer>
         </Container>
     )
