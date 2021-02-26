@@ -6,4 +6,5 @@ const Routes= props => {
         <Content><span>Content</span></Content>
     )
 }
+
 export default Routes

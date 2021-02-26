@@ -17,9 +17,11 @@ export default styled.div `
         grid-template-rows: 60px 50px 50px 1fr 40px;
         grid-template-areas:
             'header'
-            'sidenav'
+            'topnav'
             'toolbar' 
             'content'
             'footer';       
     }
+
+   
 `
