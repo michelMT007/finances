@@ -5,7 +5,7 @@ export default styled.div `
     display:grid;
     grid-template-columns: 220px 1fr;
     grid-template-rows: 60px 1fr 40px;
-
+    
     grid-template-areas:
       'header toolbar'
       'sidenav content' 

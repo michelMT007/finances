@@ -1,4 +1,4 @@
-import React from 'react'
+
 import {BrowserRouter as Router} from 'react-router-dom'
 import Container from './share/template/Container'
 import Header from './share/template/Header'
@@ -7,7 +7,7 @@ import SideNav from './share/template/SideNav'
 import Footer from './share/template/Footer'
 import Routes from './Routes'
 import TopNav from './share/template/TopNav'
-import {Nav} from './share/template/Nav.jsx'
+import Nav from './share/template/Nav'
 const  App =  (props)  => {
     return (
         <Container>
@@ -17,9 +17,11 @@ const  App =  (props)  => {
 
             <Router>
                 <TopNav> 
-                    
+                    <Nav></Nav>
                 </TopNav>
-                <SideNav> </SideNav>
+                <SideNav> 
+                    <Nav></Nav> 
+                </SideNav>
                     
                 <Routes></Routes>
 
