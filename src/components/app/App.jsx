@@ -14,10 +14,13 @@ const  App =  props => {
 
             <Toolbar><span>Toolbar</span></Toolbar>
 
-            <TopNav><span>TopNav</span></TopNav>
-            <SideNav><span>SideNav</span></SideNav>
-                
-            <Routes></Routes>
+            <Router>
+                <TopNav><span>TopNav</span></TopNav>
+                <SideNav><span>SideNav</span></SideNav>
+                    
+                <Routes></Routes>
+
+            </Router>
             <Footer><span>2021 MACsys - FInances app.</span></Footer>
         </Container>
     )
