@@ -7,7 +7,8 @@ import SideNav from './share/template/SideNav'
 import Footer from './share/template/Footer'
 import Routes from './Routes'
 import TopNav from './share/template/TopNav'
-const  App =  props => {
+import {Nav} from './share/template/Nav.jsx'
+const  App =  (props)  => {
     return (
         <Container>
             <Header><h1>My Finances</h1></Header>
@@ -15,8 +16,10 @@ const  App =  props => {
             <Toolbar><span>Toolbar</span></Toolbar>
 
             <Router>
-                <TopNav><span>TopNav</span></TopNav>
-                <SideNav><span>SideNav</span></SideNav>
+                <TopNav> 
+                    
+                </TopNav>
+                <SideNav> </SideNav>
                     
                 <Routes></Routes>
 
