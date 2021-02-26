@@ -8,7 +8,8 @@ export default styled.div `
 
     grid-template-areas:
       'header toolbar'
-      'sidenav content'  
+      'sidenav content' 
+      'sidenav footer' 
       ;
 
     @media (max-width: 800px){
