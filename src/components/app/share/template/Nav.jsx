@@ -7,8 +7,8 @@ const Nav = (props) =>{
     return(
         <nav>
             <Menu> 
-                <MenuItem to="/" label="Dashboard"/>
-                <MenuItem to="/finances" label="Finaces"/>
+                <MenuItem to="/" label="Dashboard" icon="home"/>
+                <MenuItem to="/finances" label="Minhas Financas" icon="usd"/>
             </Menu>
         </nav>
     )

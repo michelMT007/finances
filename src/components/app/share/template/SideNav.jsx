@@ -1,5 +1,3 @@
-
-
 import styled from 'styled-components'
 
 export default styled.aside `
@@ -9,5 +7,11 @@ export default styled.aside `
 
     @media (max-width: 800px) {
         display:none;
+    }
+
+    li {
+        a {
+            padding: 11px 15px;
+        }
     }
 `
