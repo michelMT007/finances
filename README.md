@@ -1,4 +1,6 @@
 # Getting Started with Create React App
+# Projeto Frontend em REACT WEB, trata-se de SPA - Single Page Application
+# Layoute com CSS. Há responsividade nos diferentes tamanhos de telas, de smartphones, tablet, pc, notebook.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
